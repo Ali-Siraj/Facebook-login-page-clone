@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #f0f2f5;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+
+}
+.left-div{
+    position: absolute;
+    top: 33%;
+    left: 14%;
+    font-size: 25px;
+}
+.left-div h1{
+    color: #0866FF; 
+}
+header{
+    width: 400px;
+    height: 380px;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 30px rgb(205, 201, 201);
+}
+.input-div input{
+    width: 80%;
+    margin: 10px;
+    margin-top: 18px;
+    margin-left: 15px;
+    padding: 18px 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(218, 211, 211); 
+    font-size: 17px;
+}  
+.link1{
+    width: 80%;
+    text-align: center;
+    background-color: #0866FF;
+    margin-top: 10px;
+    margin-left: 24px;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.link1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.link2{
+    text-align: center;
+    margin-top: 13px;
+}
+.link2 a{
+    text-decoration: none;
+    color: #0866FF;
+    font-size: 15px;
+}
+.link3{
+    width: 50%;
+    margin-left: 20%;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #36A420;
+    padding: 15px;
+    border-radius: 7px;
+}
+.link3 a{
+    text-decoration: none;
+    color: white; 
+}
+.input-bottom{
+    position: absolute;
+    top: 88%;
+    left: 57.5%;
+}
+.input-bottom a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+.input-bottom p{
+    display: inline-block;
+    font-family: sans-serif;
+}
+.input-bottom a:hover{
+    text-decoration: underline;
+}
